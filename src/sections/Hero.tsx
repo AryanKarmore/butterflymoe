@@ -139,14 +139,16 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div ref={buttonsRef} className="flex flex-wrap justify-center gap-4">
-            <button 
-              onClick={() => scrollToSection('how-it-works')}
+            <a 
+              href="https://arxiv.org/abs/2601.13563"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cta-button-primary flex items-center gap-2 group"
             >
               <FileText className="w-4 h-4" />
               Read Paper
               <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </button>
+            </a>
             <button 
               onClick={() => scrollToSection('results')}
               className="cta-button flex items-center gap-2"
@@ -154,13 +156,15 @@ export default function Hero() {
               <BarChart3 className="w-4 h-4" />
               View Results
             </button>
-            <button 
-              onClick={() => scrollToSection('comparison')}
+            <a 
+              href="https://github.com/aryan331277/ButterflyMoE/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="cta-button flex items-center gap-2"
             >
               <Code className="w-4 h-4" />
               Code
-            </button>
+            </a>
           </div>
         </div>
       </div>

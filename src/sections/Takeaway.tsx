@@ -125,15 +125,17 @@ export default function Takeaway() {
           {/* CTA */}
           <div className="mt-16">
             <p className="text-white/40 text-sm mb-4">
-              Ready to explore ButterflyMoE?
+              Written by Aryan Karmore
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <button className="cta-button-primary">
+              <a 
+                href="https://arxiv.org/abs/2601.13563" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="cta-button-primary"
+              >
                 Get Started
-              </button>
-              <button className="cta-button">
-                View Documentation
-              </button>
+              </a>
             </div>
           </div>
         </div>

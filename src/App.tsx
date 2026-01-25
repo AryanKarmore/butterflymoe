@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Navigation from './components/Navigation';
 import ParticleBackground from './components/ParticleBackground';
 import Hero from './sections/Hero';
@@ -60,6 +61,9 @@ function App() {
           </div>
         </div>
       </footer>
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
